@@ -12,6 +12,10 @@ public class Mov_Dinero {
         this.usuario = usuario;
     }
 
+    public Mov_Dinero() {
+
+    }
+
     public String getMonto() {
         return monto;
     }
