@@ -14,6 +14,10 @@ public class Empleado {
         this.rol = rol;
     }
 
+    public Empleado() {
+
+    }
+
     public String getNombre() {
         return nombre;
     }
