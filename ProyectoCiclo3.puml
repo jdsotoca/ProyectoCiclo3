@@ -1,0 +1,56 @@
+@startuml
+class com.SotoWeb.ProyectoCiclo3.entity.Mov_Dinero {
+- String monto
+- String concepto
+- String usuario
++ <<Create>> Mov_Dinero(String,String,String)
++ String getMonto()
++ void setMonto(String)
++ String getConcepto()
++ void setConcepto(String)
++ String getUsuario()
++ void setUsuario(String)
++ String toString()
+}
+class com.SotoWeb.ProyectoCiclo3.entity.Empresa {
+- String nombre
+- String direccion
+- String telefono
+- String nit
++ <<Create>> Empresa(String,String,String,String)
++ String getNombre()
++ void setNombre(String)
++ String getDireccion()
++ void setDireccion(String)
++ String getTelefono()
++ void setTelefono(String)
++ String getNit()
++ void setNit(String)
++ String toString()
+}
+class com.SotoWeb.ProyectoCiclo3.ProyectoCiclo3ApplicationTests {
+~ void contextLoads()
+}
+class com.SotoWeb.ProyectoCiclo3.controller.controladorgeneral {
++ String saludo()
+}
+class com.SotoWeb.ProyectoCiclo3.ProyectoCiclo3Application {
++ {static} void main(String[])
+}
+class com.SotoWeb.ProyectoCiclo3.entity.Empleado {
+- String nombre
+- String correo
+- String empresa
+- String rol
++ <<Create>> Empleado(String,String,String,String)
++ String getNombre()
++ void setNombre(String)
++ String getCorreo()
++ void setCorreo(String)
++ String getEmpresa()
++ void setEmpresa(String)
++ String getRol()
++ void setRol(String)
++ String toString()
+}
+@enduml
