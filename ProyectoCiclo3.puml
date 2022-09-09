@@ -1,9 +1,9 @@
 @startuml
-class com.SotoWeb.ProyectoCiclo3.entity.Mov_Dinero {
+class com.SotoWeb.ProyectoCiclo3.entity.MovimientoDinero {
 - String monto
 - String concepto
 - String usuario
-+ <<Create>> Mov_Dinero(String,String,String)
++ <<Create>> MovimientoDinero(String,String,String)
 + String getMonto()
 + void setMonto(String)
 + String getConcepto()

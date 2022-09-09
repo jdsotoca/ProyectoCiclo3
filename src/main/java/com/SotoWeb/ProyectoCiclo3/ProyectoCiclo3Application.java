@@ -2,7 +2,7 @@ package com.SotoWeb.ProyectoCiclo3;
 
 import com.SotoWeb.ProyectoCiclo3.entity.Empleado;
 import com.SotoWeb.ProyectoCiclo3.entity.Empresa;
-import com.SotoWeb.ProyectoCiclo3.entity.Mov_Dinero;
+import com.SotoWeb.ProyectoCiclo3.entity.MovimientoDinero;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -12,7 +12,7 @@ public class ProyectoCiclo3Application {
 	public static void main(String[] args) {
 		SpringApplication.run(ProyectoCiclo3Application.class, args);
 
-		Mov_Dinero movDinero = new Mov_Dinero();
+		MovimientoDinero movDinero = new MovimientoDinero();
 		movDinero.setMonto("150000");
 		movDinero.setConcepto("Libre Inversion");
 		movDinero.setUsuario("User1");
