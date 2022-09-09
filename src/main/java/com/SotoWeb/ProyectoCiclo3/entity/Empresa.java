@@ -14,6 +14,10 @@ public class Empresa {
         this.nit = nit;
     }
 
+    public Empresa() {
+
+    }
+
     public String getNombre() {
         return nombre;
     }
